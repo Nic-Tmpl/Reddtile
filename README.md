@@ -12,8 +12,8 @@ An app that queries the Reddit JSON API to display image posts and comments.
 
 ## Tech Stack
 + [React](https://reactjs.org) is used for UI.
-+[react-burger-menu](https://negomi.github.io/react-burger-menu/) is used to create the sidebar menu.
-+[react-spinners](https://www.davidhu.io/react-spinners/) is used for the loading animation
++ [react-burger-menu](https://negomi.github.io/react-burger-menu/) is used to create the sidebar menu.
++ [react-spinners](https://www.davidhu.io/react-spinners/) is used for the loading animation
 
 ### Website
 https://reddtile.netlify.app
