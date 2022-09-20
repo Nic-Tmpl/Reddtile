@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Reddtile
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app that queries the Reddit JSON API to display image posts and comments.
 
-## Available Scripts
+ ### Features
+1. A loading animation utilizing react-spinners.
+2. A search function to look for specific posts by title.
+3. A subreddit button that displays the current top 25 subreddits in a sidebar.
+4. An initial page view of the most popular posts on Reddit.
+5. A modal view of pictures or comments on click.
+6. Responsive css layout for desktop or mobile view.
 
-In the project directory, you can run:
+## Tech Stack
++ [React](https://reactjs.org) is used for UI.
++[react-burger-menu](https://negomi.github.io/react-burger-menu/) is used to create the sidebar menu.
++[react-spinners](https://www.davidhu.io/react-spinners/) is used for the loading animation
 
-### `npm start`
+### Website
+https://reddtile.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Repo
+https://github.com/Nic-Tmpl/Reddtile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Upcoming Revisions
+There is still some refactoring and bug fixes I would like to finish before I consider the app complete.
+1. Move some state slices and associated functions from App.js to a separate file to control state.
+2. Fix a small bug in mobile css that loads the searchbar slightly over-size.
